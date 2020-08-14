@@ -7,6 +7,6 @@
 
     $contenido = "Nombre: " . $name ."\nCorreo: " . $email ."\nTeléfono: " . $telephone . "\nMensaje: " . $mensaje;
     mail($destino,"Contacto",$contenido);
-    header("Location: https://www.google.com")
+    header("Location:index.html")
 
 ?>
