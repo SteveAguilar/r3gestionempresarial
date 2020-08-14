@@ -47,5 +47,3 @@ require 'PHPMailer/SMTP.php';
     } catch (Exception $e) {
         echo "Hubo un error al enviar el mensaje: {$mail->ErrorInfo}";
     }
-    
-    ?>
